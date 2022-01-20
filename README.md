@@ -48,8 +48,9 @@ Make the connections between your components as follows:
 The [code](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/gimbal_code.ino) is given above and the [project report](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/Drone%20Report.pdf) for this workshop can also be found.
 
 ## The Setup 🛠️
+![image](https://user-images.githubusercontent.com/87569188/150323228-532ed5e7-e3b9-4c45-b6a4-4ad6227e4be3.png)
 
 As I didn't have a 3D printer available for physically implimenting the gimbal, I used scrap thermocol ♻️ to join the two servos perpendicularly to make the two-axis gimbal.
-> The following research paper focuses on  a 3 axis gimbal with 3 degrees of freedom, namely: _roll, pitch_ & _yaw_. https://www.researchgate.net/publication/326995081_Three_Axis_Gimbal_Design_and_Its_Application
+> The following research paper discusses 3 axis gimbals with 3 degrees of freedom, namely: _roll, pitch_ & _yaw_. https://www.researchgate.net/publication/326995081_Three_Axis_Gimbal_Design_and_Its_Application
 
 The gimbal we are creating will work on 2 axis and hence will only have 2 degrees of freedom: _roll_ & _pitch_.
