@@ -8,12 +8,12 @@ A simple two-axis gimbal built using two servo motors, an mpu6050 gyro and accel
 
 [Here](https://maker.pro/arduino/tutorial/how-to-control-a-servo-with-an-arduino-and-mpu6050) is a helpful tutorial that I took reference of for building this project.
 
-## What is a Gimbal?
+## What is a Gimbal? 📝
 > Gimbals are used to stabilise camera payloads that have been mounted on drones and other autonomous vehicles.
 
 **WORKING:** The gimbal integrated an IMU (MPU6050)  that responds to motion and provides inputs to a controller that activates separate motors to keep the payload steady on each axis.
 
-## Components Used
+## Components Used 🧮
 Before starting on this project, make sure to go through this checklist:
 
 | Component  | Amount  | Utility |
@@ -22,7 +22,7 @@ Before starting on this project, make sure to go through this checklist:
 | MPU6050 Accelerometer & Gyroscope | x1 | Tilt sensing |
 | Micro servo motors | x2 | Actuators for stabilizing payload |
 
-## Schematics
+## Schematics 🏗️
 
 Make the connections between your components as follows:
 ### MPU6050
@@ -37,12 +37,19 @@ Make the connections between your components as follows:
 - Connect **GND** (black jumper) on servo to **GND** pin on Arduino
 - Connect the **signal jumper** (yellow) on servo to **pin 3** on Arduino
 
-### Servo 2
+### Servo 2 
 - Connect **VCC** (red jumper) on servo motor to **5V pin** on Arduino
 - Connect **GND** (black jumper) on servo to **GND** pin on Arduino
 - Connect the **signal jumper** (yellow) on servo to **pin 6** on Arduino
 
 > Pin 3 & 6 give PWM signals to the respective servo motors to move them to our desired orientation.
 
-## Code
+## Code 💻
 The [code](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/gimbal_code.ino) is given above and the [project report](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/Drone%20Report.pdf) for this workshop can also be found.
+
+## The Setup 🛠️
+
+As I didn't have a 3D printer available for physically implimenting the gimbal, I used scrap thermocol ♻️ to join the two servos perpendicularly to make the two-axis gimbal.
+> The following research paper focuses on  a 3 axis gimbal with 3 degrees of freedom, namely: _roll, pitch_ & _yaw_. https://www.researchgate.net/publication/326995081_Three_Axis_Gimbal_Design_and_Its_Application
+
+The gimbal we are creating will work on 2 axis and hence will only have 2 degrees of freedom: _roll_ & _pitch_.
