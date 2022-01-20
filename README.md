@@ -45,4 +45,4 @@ Make the connections between your components as follows:
 > Pin 3 & 6 give PWM signals to the respective servo motors to move them to our desired orientation.
 
 ## Code
-The [code](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/gimbal_code.ino) is given above.
+The [code](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/gimbal_code.ino) is given above and the [project report](https://github.com/aceta-minophen/Makeshift-Gimbal/blob/main/Drone%20Report.pdf) for this workshop can also be found.
